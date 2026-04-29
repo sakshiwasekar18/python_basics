@@ -28,7 +28,7 @@ print(len(nums))
 for i in range(len(nums)):#to use for in array use len
   for j in range(i+1,len(nums)):
     if nums[i]+nums[j]==target:
-      print(nums[i],nums[j])
+      print([nums[i],nums[j]])
 
 #by brute force solution 
 n=len(nums) 
@@ -39,6 +39,9 @@ for i in range(0,n-1):#len starst counting fron 1 but index from 0 so last shoul
     if nums[i]+nums[j]==target:
       print([i,j])
       #return [i,j]#return can be used ONLY inside a function
+
+
+#***********optimal solution***********
 
 
 

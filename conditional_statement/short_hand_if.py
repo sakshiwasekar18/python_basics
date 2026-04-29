@@ -1,5 +1,5 @@
 print()
-#grade for marks
+#grade for marks and avg
 print("grade for marks")
 a=int(input("enter the marks for maths :"))
 b=int(input("enter the marks for english:"))
@@ -11,7 +11,7 @@ total_mark=500
 total=a+b+c+d+e
 print(f" total: {total}")
 percentage= (total/total_mark)*100
-print(f"percentage : {percentage}")
+print(f"percentage : {percentage}%")
 
 avg=a+b+c+d+e/5
 print(f"avgerage : {avg}")

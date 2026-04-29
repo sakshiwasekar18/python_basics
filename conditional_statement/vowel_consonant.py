@@ -14,7 +14,7 @@ else:
   #using list
 
 a=input("\n enter a character: ")
-lsi=["a","e","i","o","u","A","E","I","O","U"]
+lst=["a","e","i","o","u","A","E","I","O","U"]
 if a in lst:
   print("character is a vowel")
 else:

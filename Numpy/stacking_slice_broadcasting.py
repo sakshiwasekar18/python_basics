@@ -1,4 +1,4 @@
-#stacking-lot os array to combine 
+#stacking-lot for array to combine 
 # vertically -np.vstack(())
 # or 
 # horizontally -np.hstack(())    convert 1d into 2d
@@ -47,9 +47,13 @@ print(final_price)
 price_incre=price + 20
 print(price_incre)
 
+print()
 #adding value in 2d  or adding 1d and 2d
 arra2d=np.array([[2,3,4],
                 [3,4,5]])
 arra1d=np.array([4,4,4])
 add=arra1d + arra2d
 print(add)
+
+print()
+

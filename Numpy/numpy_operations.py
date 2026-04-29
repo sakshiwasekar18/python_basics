@@ -65,3 +65,4 @@ print()
 arry11=np.array(["2","4","5","6"])
 arry12=arry11.astype(int)
 print(arry12)
+

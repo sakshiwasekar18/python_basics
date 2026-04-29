@@ -51,6 +51,7 @@ if a==b:
     print("given 3 numbers are equale")
 else:print("numbers are not equale")
 
+print()
 #voter age 
 age = int(input("enter your age :"))
 if age>=18:

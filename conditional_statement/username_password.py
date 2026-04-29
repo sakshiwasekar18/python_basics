@@ -6,6 +6,6 @@ name2=input("enter your name :")
 password2=input("enter password :")
 
 if name1==name2 and password1==password2:
-  print("login successful")
+  print("\n login successful")
 else:
-  print("error")
+  print(" \n error")
