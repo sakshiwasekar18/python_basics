@@ -45,3 +45,4 @@ print(data)
 print("\n",data[data[:,1]>80])
 #or
 print("\n",data[marks>80])
+
