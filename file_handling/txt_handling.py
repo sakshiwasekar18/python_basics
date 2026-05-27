@@ -1,3 +1,4 @@
+
 import traceback
 
 
@@ -27,9 +28,9 @@ except FileNotFoundError:
 #write operations
 
 file=open("demo2.txt","w") 
-print(file.writable())
-file.writelines(["hi ia m human","\nhumans are kind"])
-file.write("hello \n hi")
+print(file.writable())          #check if you can write in file 
+file.writelines(["hi ia m human","\nhumans are kind"])           #add more than one line 
+file.write("hello \n hi")           # add one line but by using \n u can write multiple lines here too
 # with open("demo2.txt","w") as file:
 #  print( file.writable())
 
@@ -50,6 +51,5 @@ with open("demo.txt","a") as file:
   print(file.writable())
   file.write("how are you \n doing")
   file.writelines(["\n i am fine","\n thank you"])
-
 
 
