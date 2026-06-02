@@ -1,0 +1,8 @@
+1. word.capitalize()
+
+Converts:
+
+"apple" → "Apple"
+Only first letter uppercase, rest lowercase
+
+2. 
